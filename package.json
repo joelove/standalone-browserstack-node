@@ -18,8 +18,14 @@
   },
   "devDependencies": {
     "babel": "^5.8.34",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "cucumber": "^0.9.5",
     "eslint": "^1.10.1",
     "eslint-config-airbnb": "^1.0.0",
-    "node-babel": "^0.1.2"
+    "mocha": "^2.4.5",
+    "node-babel": "^0.1.2",
+    "wdio-cucumber-framework": "0.0.4",
+    "wdio-junit-reporter": "0.0.2"
   }
 }

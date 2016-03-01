@@ -1,0 +1,2 @@
+export BROWSERSTACK_USERNAME=username
+export BROWSERSTACK_PASSWORD=password

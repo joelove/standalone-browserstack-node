@@ -1,0 +1,10 @@
+{
+  "desiredCapabilities": {
+    "browserName": "chrome",
+    "version": "27.0",
+    "platform": "XP",
+    "tags": [],
+    "name": "my test"
+  },
+  "logLevel": "verbose"
+}
