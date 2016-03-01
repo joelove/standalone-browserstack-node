@@ -1,0 +1,23 @@
+{
+  "name": "standalone-browserstack-node",
+  "description": "A standalone, cross-browser testing suite utilising Node, WebdriverIO, Selenium and BrowserStack",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "eslint features/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelove/standalone-browserstack-node.git"
+  },
+  "author": "Joe Love",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "eslint": "^1.10.1",
+    "eslint-config-airbnb": "^1.0.0",
+    "node-babel": "^0.1.2"
+  }
+}
