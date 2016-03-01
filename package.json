@@ -3,6 +3,7 @@
   "description": "A standalone, cross-browser testing suite utilising Node, WebdriverIO, Selenium and BrowserStack",
   "version": "0.1.0",
   "scripts": {
+    "build": "babel --optional runtime --stage 0 -d dist/ features/",
     "lint": "eslint features/"
   },
   "repository": {
@@ -12,7 +13,8 @@
   "author": "Joe Love",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "webdriverio": "^4.0.3"
   },
   "devDependencies": {
     "babel": "^5.8.34",
